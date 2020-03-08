@@ -13,7 +13,7 @@ exports.config = {
     maxInstances: 1,
     capabilities: [{
         browserName: 'chrome',
-        browserVersion: '73.0',
+        browserVersion: '80.0',
         platformName: 'mac',
         maxInstances: 10,
     }],
@@ -41,7 +41,7 @@ exports.config = {
     seleniumArgs: {
         drivers: {
             chrome: {
-                version: '2.46',
+                version: '80.0.3987.16',
                 arch: process.arch,
                 baseURL: 'https://chromedriver.storage.googleapis.com',
             },
@@ -50,7 +50,7 @@ exports.config = {
     seleniumInstallArgs: {
         drivers: {
             chrome: {
-                version: '2.46',
+                version: '80.0.3987.16',
                 arch: process.arch,
                 baseURL: 'https://chromedriver.storage.googleapis.com',
             },

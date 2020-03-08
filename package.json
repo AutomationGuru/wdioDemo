@@ -4,7 +4,7 @@
   "description": "WebDriverIO Responsive website testframework",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "wdio local-wdio.conf.js.demo.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "@wdio/spec-reporter": "^5.12.1",
     "@wdio/sync": "^5.12.3",
     "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
   }
 }
